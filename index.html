@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MSA Course Map Demo</title>
+    <meta charset="utf-8">
+
+    <script type="text/javascript" src="./node_modules/vue/dist/vue.js"></script>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+    <div id="app" class="container">
+        <div class="row">
+            <div class="col-9">
+                <h2>MSA Course Map</h2>
+            </div>
+            <div class="col d-flex align-items-center justify-content-end">
+                <div class="btn-group" role="group">
+                    <button type="button" :class="['btn btn-sm border border-primary', toggleLanguage ? 'btn-light' : 'btn-primary']" @click="toggleLanguage=0">English</button>
+                    <button type="button" :class="['btn btn-sm border border-primary', toggleLanguage ? 'btn-primary' : 'btn-light']" @click="toggleLanguage=1">Chinese</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

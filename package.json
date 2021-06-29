@@ -1,0 +1,12 @@
+{
+  "name": "msa-course-map",
+  "version": "1.0.0",
+  "description": "msa-course-map by Daniel He",
+  "main": "index.js",
+  "author": "Daniel He",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "vue": "^2.6.14"
+  }
+}
